@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstring>
+#include <vector>
 
 using namespace std;
 
@@ -13,6 +15,16 @@ namespace businessLogic {
 		string name;
 		string surname;
 		int salary;
+		string login;
+
+		void allFlorist(int idPassport, string name, string surname) { // создаем массив работников(если нет возможности, гет сет)
+			vector<florist> allFlorist;//хз
+			allFlorist.reserve(3);
+			for (auto item : allFlorist)
+			{
+				allFlorist.emplace_back(idPassport);
+			}
+		}
 	};
 
 	class flower {
@@ -53,7 +65,7 @@ namespace businessLogic {
 
 	class check {
 		int id;
-		int price;
+		int totalPrice;
 	};
 
 	class bouquet {
