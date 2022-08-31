@@ -127,7 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bouquet.cpp" />
+    <ClCompile Include="Check.cpp" />
+    <ClCompile Include="Florist.cpp" />
+    <ClCompile Include="Flower.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Storage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bouquet.h" />
+    <ClInclude Include="Check.h" />
+    <ClInclude Include="Florist.h" />
+    <ClInclude Include="Flower.h" />
+    <ClInclude Include="Storage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
