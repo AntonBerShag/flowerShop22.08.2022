@@ -1,4 +1,3 @@
-#include <iostream>
 #include<vector>
 #include "Florist.h"
 #include "Flower.h"
@@ -239,6 +238,9 @@ namespace model {
 
 		string type;
 
+	class check {
+		int id;
+		int price;
 	};
 	class Package {
 
