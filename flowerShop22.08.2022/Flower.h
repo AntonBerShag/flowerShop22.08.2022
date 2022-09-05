@@ -1,27 +1,21 @@
 #pragma once
 #include <iostream>
 #include <stdlib.h>
+#include <string>
 
 namespace BusinessLogic {
 
 	class flower {
 	public:
-		
+		void setTypeF(std::string typeF);
+		std::string getTypeF() const;
 	
-	private:
-		enum typeF {
-			rose,
-			chamomile,//ромашка
-			lily,//лилия
-			tulip//тюлбпан
-		};
-		enum colorF {
-			red,
-			white,
-			yellow,
-			violet
-		};
+		void setColorF(std::string colorF);
+		std::string getColorF() const;
 
+	private:
+		std::string typeF;
+		std::string colorF;
 	};
 
 }

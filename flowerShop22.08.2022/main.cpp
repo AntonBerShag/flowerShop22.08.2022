@@ -207,9 +207,9 @@ namespace model {
 	private:
 		vector <Flower> Flowers;
 		vector <Bouquet> Bouqets;
-		vector <TeddyBear> TeddyBears;
-		vector <Package> Packages;
-		vector <Ribbon> Ribbons;
+		//vector <TeddyBear> TeddyBears;
+		/*vector <Package> Packages;
+		vector <Ribbon> Ribbons;*/
 	};
 
 	// Classes Of Stuff
@@ -254,7 +254,7 @@ namespace model {
 
 	};
 
-}
+};
 
 int main() {
 

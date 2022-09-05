@@ -12,27 +12,15 @@
     <Compartments>
       <Compartment Name="Nested Types" Collapsed="false" />
     </Compartments>
-    <NestedTypes>
-      <Enum Name="BusinessLogic::flower::typeF" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Flower.h</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-      <Enum Name="BusinessLogic::flower::colorF" Collapsed="true">
-        <TypeIdentifier>
-          <NewMemberFileName>Flower.h</NewMemberFileName>
-        </TypeIdentifier>
-      </Enum>
-    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAARAAAAAAAAAAAAAAAAAAAAAAACAAABAgAAIAAA=</HashCode>
       <FileName>Flower.h</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="BusinessLogic::check">
+  <Class Name="BusinessLogic::Check">
     <Position X="0.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgABAAAAAAAAAAAAACAAARAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AgABAAgAAAAAAAAAACAAIRAAAAAAAAAAgABAIAAAAgA=</HashCode>
       <FileName>Check.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -46,7 +34,7 @@
   <Class Name="BusinessLogic::storage">
     <Position X="7" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAACAAAAI=</HashCode>
+      <HashCode>AAAAIAAAAAAAABAAAAAAAAAAAAAAAIAAAAAAADAAAAI=</HashCode>
       <FileName>Storage.h</FileName>
     </TypeIdentifier>
   </Class>
@@ -95,7 +83,7 @@
   <Class Name="model::Warehouse">
     <Position X="2.25" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAgAAAAAAAAAAIAAIAAAAAAAAAAAAAAAAAABAAAAACA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAACA=</HashCode>
       <FileName>main.cpp</FileName>
     </TypeIdentifier>
   </Class>
@@ -115,6 +103,23 @@
   </Class>
   <Class Name="model::TeddyBear">
     <Position X="9" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Class Name="model::TeddyBear::check" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>main.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="model::TeddyBear::Package" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>main.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="model::TeddyBear::Ribbon" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>main.cpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAARAACAAAAAAAAAAAA=</HashCode>
       <FileName>main.cpp</FileName>

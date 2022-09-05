@@ -1,21 +1,25 @@
 #include "Check.h"
 
-void BusinessLogic::check::setId(int id)
+BusinessLogic::Check::Check()
+{
+}
+
+void BusinessLogic::Check::setId(int id)
 {
 	this->id = id;
 }
 
-int BusinessLogic::check::getId() const
+int BusinessLogic::Check::getId() const
 {
 	return id;
 }
 
-void BusinessLogic::check::setPrice(int price)
+void BusinessLogic::Check::setPrice(int price)
 {
 	this->price = price;
 }
 
-int BusinessLogic::check::getPrice() const
+int BusinessLogic::Check::getPrice() const
 {
 	return price;
 }
