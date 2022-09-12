@@ -1,9 +1,5 @@
 #include "TradePosition.h"
 
-BussinessLogics::TradePosition::TradePosition()
-{
-}
-
 void BussinessLogics::TradePosition::setNameOfProduct(std::string& nameOfProduct)
 {
 	this->nameOfProduct_ = nameOfProduct;

@@ -1,26 +1,22 @@
 #include "Check.h"
 
-BusinessLogic::Check::Check()
+void BusinessLogic::Check::setTime(std::string time)
 {
+	this->time_ = time;
 }
 
-void BusinessLogic::Check::setId(int id)
+std::string BusinessLogic::Check::getTime() const
 {
-	this->id = id;
+	return time_;
 }
 
-int BusinessLogic::Check::getId() const
+void BusinessLogic::Check::setCounterparty(std::string counterparty)
 {
-	return id;
+	this->counterparty_ = counterparty;
 }
 
-void BusinessLogic::Check::setPrice(int price)
+std::string BusinessLogic::Check::getCounterparty() const
 {
-	this->price = price;
-}
-
-int BusinessLogic::Check::getPrice() const
-{
-	return price;
+	return counterparty_;
 }
 
